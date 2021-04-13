@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
-#from sklearn.tree import export_graphviz
-#import graphviz
+from sklearn.tree import export_graphviz
+import graphviz
 
 
 #Ajustando os Dados
@@ -37,13 +37,13 @@ acuracia = accuracy_score(teste_y, previsoes) * 100
 print("A acurácia foi %.2f%%" % acuracia)
 
 #Exportando o Grafico
-#features = x.columns
-#dot_data = export_graphviz(modelo, out_file=None,
-#                           filled = True, rounded = True,
-#                           feature_names = features,
-#                          class_names = ["não", "sim"])
-#grafico = graphviz.Source(dot_data, filename="test.gv", format="png")
-#grafico.view()
+features = x.columns
+dot_data = export_graphviz(modelo, out_file=None,
+                           filled = True, rounded = True,
+                           feature_names = features,
+                          class_names = ["não", "sim"])
+grafico = graphviz.Source(dot_data, filename="test.gv", format="png")
+grafico.view()
 
 #Exportando o modelo
 pickle.dump(modelo, open('model/model_stroke_prediction.pkl', 'wb'))
@@ -51,10 +51,10 @@ pickle.dump(modelo, open('model/model_stroke_prediction.pkl', 'wb'))
 #Fazendo request
 x_json = x.to_json(orient='records')
 
-url = 'http://192.168.1.105:5000/predict'
+url = 'https://stroke-prediction-model.herokuapp.com/predict'
 data = x_json
 header = {'Content-type': 'application/json'}
 
-#r = requests.post(url=url, data=data, headers=header)
+r = requests.post(url=url, data=data, headers=header)
 
-#print(r)
+print(r)

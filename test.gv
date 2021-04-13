@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="age <= 67.5\ngini = 0.188\nsamples = 1497\nvalue = [1340, 157]\nclass = não", fillcolor="#e89050"] ;
+1 [label="age <= 44.5\ngini = 0.1\nsamples = 1217\nvalue = [1153, 64]\nclass = não", fillcolor="#e68844"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="avg_glucose_level <= 0.014\ngini = 0.014\nsamples = 694\nvalue = [689, 5]\nclass = não", fillcolor="#e5823a"] ;
+1 -> 2 ;
+3 [label="gini = 0.198\nsamples = 18\nvalue = [16, 2]\nclass = não", fillcolor="#e89152"] ;
+2 -> 3 ;
+4 [label="gini = 0.009\nsamples = 676\nvalue = [673, 3]\nclass = não", fillcolor="#e5823a"] ;
+2 -> 4 ;
+5 [label="avg_glucose_level <= 0.485\ngini = 0.2\nsamples = 523\nvalue = [464, 59]\nclass = não", fillcolor="#e89152"] ;
+1 -> 5 ;
+6 [label="gini = 0.155\nsamples = 437\nvalue = [400, 37]\nclass = não", fillcolor="#e78d4b"] ;
+5 -> 6 ;
+7 [label="gini = 0.381\nsamples = 86\nvalue = [64, 22]\nclass = não", fillcolor="#eeac7d"] ;
+5 -> 7 ;
+8 [label="avg_glucose_level <= 0.33\ngini = 0.444\nsamples = 280\nvalue = [187, 93]\nclass = não", fillcolor="#f2c09b"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="age <= 79.5\ngini = 0.382\nsamples = 187\nvalue = [139, 48]\nclass = não", fillcolor="#eead7d"] ;
+8 -> 9 ;
+10 [label="gini = 0.327\nsamples = 141\nvalue = [112, 29]\nclass = não", fillcolor="#eca26c"] ;
+9 -> 10 ;
+11 [label="gini = 0.485\nsamples = 46\nvalue = [27, 19]\nclass = não", fillcolor="#f7dac4"] ;
+9 -> 11 ;
+12 [label="avg_glucose_level <= 0.402\ngini = 0.499\nsamples = 93\nvalue = [48, 45]\nclass = não", fillcolor="#fdf7f3"] ;
+8 -> 12 ;
+13 [label="gini = 0.278\nsamples = 6\nvalue = [1, 5]\nclass = sim", fillcolor="#61b1ea"] ;
+12 -> 13 ;
+14 [label="gini = 0.497\nsamples = 87\nvalue = [47, 40]\nclass = não", fillcolor="#fbece2"] ;
+12 -> 14 ;
+}
