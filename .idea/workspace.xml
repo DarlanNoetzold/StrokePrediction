@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce0aa9a3-00df-4d30-b9b3-55caec4020cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model_stroke_prediction.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/model/model_stroke_prediction.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gv" beforeDir="false" afterPath="$PROJECT_DIR$/test.gv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.gv.png" beforeDir="false" afterPath="$PROJECT_DIR$/test.gv.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -54,7 +56,7 @@
       <recent name="C:\Users\darla\Desktop\testes\Stroke\parameter" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main">
     <configuration name="StrokePrediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Stroke" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.strokePrediction" />
         <item itemvalue="Python.handler" />
         <item itemvalue="Python.StrokePrediction" />
@@ -198,22 +200,22 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="568" y="251" key="#com.intellij.fileTypes.FileTypeChooser/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618315720360" />
-    <state width="1579" height="239" key="GridCell.Tab.0.bottom" timestamp="1618323234515">
+    <state width="1579" height="239" key="GridCell.Tab.0.bottom" timestamp="1618325114422">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="239" key="GridCell.Tab.0.bottom/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618323234515" />
-    <state width="1579" height="239" key="GridCell.Tab.0.center" timestamp="1618323234515">
+    <state width="1579" height="239" key="GridCell.Tab.0.bottom/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618325114422" />
+    <state width="1579" height="239" key="GridCell.Tab.0.center" timestamp="1618325114422">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="239" key="GridCell.Tab.0.center/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618323234515" />
-    <state width="1579" height="239" key="GridCell.Tab.0.left" timestamp="1618323234515">
+    <state width="1579" height="239" key="GridCell.Tab.0.center/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618325114422" />
+    <state width="1579" height="239" key="GridCell.Tab.0.left" timestamp="1618325114422">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="239" key="GridCell.Tab.0.left/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618323234515" />
-    <state width="1579" height="239" key="GridCell.Tab.0.right" timestamp="1618323234515">
+    <state width="1579" height="239" key="GridCell.Tab.0.left/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618325114422" />
+    <state width="1579" height="239" key="GridCell.Tab.0.right" timestamp="1618325114422">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1579" height="239" key="GridCell.Tab.0.right/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618323234515" />
+    <state width="1579" height="239" key="GridCell.Tab.0.right/1600.141.1366.768/0.0.1600.900@0.0.1600.900" timestamp="1618325114422" />
     <state x="301" y="94" key="SettingsEditor" timestamp="1618323142839">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
