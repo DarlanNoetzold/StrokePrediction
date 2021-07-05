@@ -12,4 +12,6 @@
 ### Dados de entrada:
 * Formato: "age", "hypertension", "heart_disease", "avg_glucose_level", "bmi".
 
+<br>
+
 Link da API: https://stroke-prediction-model.herokuapp.com/predict
