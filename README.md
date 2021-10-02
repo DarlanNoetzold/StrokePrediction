@@ -15,3 +15,7 @@
 <br>
 
 Link da API: https://stroke-prediction-model.herokuapp.com/predict
+
+---
+
+⭐️ From [DarlanNoetzold](https://github.com/DarlanNoetzold)
